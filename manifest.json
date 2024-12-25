@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "AutoFill Helper",
+    "author": "Dalibor Vuletic",
+    "version": "1.0",
+    "description": "Automatically fills in fields on the page according to selected users.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "host_permissions": ["<all_urls>"],
+    "web_accessible_resources": [
+      {
+        "resources": ["users.csv"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
