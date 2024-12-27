@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "AutoFill Helper",
     "author": "Dalibor Vuletic",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Automatically fills in fields on the page according to selected users.",
     "permissions": ["activeTab", "scripting"],
     "action": {
