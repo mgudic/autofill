@@ -10,7 +10,15 @@
             padding: 5px;
             width: 200px;
         }
-        select, button {
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 4px;
+        }
+        select {
+            padding: 10px;
+            width: 80%;
+        }
+        button {
             margin-top: 10px;
             padding: 10px;
             width: 100%;
@@ -18,7 +26,13 @@
     </style>
 </head>
 <body>
-    <h1>Autofill Helper</h1>
+    <h1>Autofill 
+        <span id="manifestVersion"
+            style="font-size: 0.5em;">
+            Loading...
+        </span>
+    </h1>
+        
     <select id="userSelector"></select>
     <script src="popup.js"></script>
 </body>
