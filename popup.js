@@ -14,7 +14,6 @@ async function loadUsers() {
 
 // Function to parse CSV data
 function parseCSV(csv) {
-    debugger;
     const rows = csv.split('\n').slice(1); // Skip the header row
     return rows.map(row => {
         const [firstName, lastName, contact] = row.split(',').map(cell => cell.trim());
