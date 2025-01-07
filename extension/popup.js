@@ -12,6 +12,12 @@ async function loadUsers() {
     return parseCSV(csvData);
 }
 
+async function loadJsonUsers() {
+    const response = await fetch(chrome.runtime.getURL('./users.json'));
+    const jsonData = await response.json();
+    return jsonData.users;
+  }
+
 // Function to parse CSV data
 function parseCSV(csv) {
     const rows = csv.split('\n').slice(1); // Skip the header row
@@ -23,7 +29,8 @@ function parseCSV(csv) {
 
 // Populate the dropdown menu with users from the CSV file
 async function populateUserSelector() {
-    const users = await loadUsers();
+    // const users = await loadUsers();
+    const users = await loadJsonUsers();
     const userSelector = document.getElementById("userSelector");
 
     // Add a default empty option

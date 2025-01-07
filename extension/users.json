@@ -1,0 +1,174 @@
+{
+    "users": [
+        {
+            "firstName": "Arvid",
+            "lastName": "Roos",
+            "contact": "arvid.roos@astrazeneca.com"
+        },
+        {
+            "firstName": "Daniel",
+            "lastName": "Cuc",
+            "contact": "daniel.cuc@astrazeneca.com"
+        },
+        {
+            "firstName": "Nikolay",
+            "lastName": "Dzhenkov",
+            "contact": "nikolay.dzhenkov@astrazeneca.com"
+        },
+        {
+            "firstName": "Marin",
+            "lastName": "Minkov",
+            "contact": "marin.minkov@astrazeneca.com"
+        },
+        {
+            "firstName": "Iva",
+            "lastName": "Petrova",
+            "contact": "iva.petrova@astrazeneca.com"
+        },
+        {
+            "firstName": "Boris",
+            "lastName": "Dimitrov",
+            "contact": "boris.dimitrov@astrazeneca.com"
+        },
+        {
+            "firstName": "Ivan",
+            "lastName": "Panicherski",
+            "contact": "ivan.panicherski@astrazeneca.com"
+        },
+        {
+            "firstName": "Simna",
+            "lastName": "Konath Ponnan",
+            "contact": "simna.konathponnan@astrazeneca.com"
+        },
+        {
+            "firstName": "Petar",
+            "lastName": "Petrovski",
+            "contact": "petar.petrovski1@astrazeneca.com"
+        },
+        {
+            "firstName": "Tetyana",
+            "lastName": "Prygrodska",
+            "contact": "tetyana.prygrodska@astrazeneca.com"
+        },
+        {
+            "firstName": "Igor",
+            "lastName": "Zajac",
+            "contact": "igor.zajac@astrazeneca.com"
+        },
+        {
+            "firstName": "Kristian",
+            "lastName": "Kasalo",
+            "contact": "kristian.kasalo@astrazeneca.com"
+        },
+        {
+            "firstName": "Dalibor",
+            "lastName": "Vuleti\u0107",
+            "contact": "dalibor.vuletic@astrazeneca.com"
+        },
+        {
+            "firstName": "Ivan",
+            "lastName": "Bekavac",
+            "contact": "ivan.bekavac@astrazeneca.com"
+        },
+        {
+            "firstName": "Lovisa",
+            "lastName": "Ekberg",
+            "contact": "lovisa.ekberg1@astrazeneca.com"
+        },
+        {
+            "firstName": "Marin",
+            "lastName": "Corkalo",
+            "contact": "marin.corkalo@astrazeneca.com"
+        },
+        {
+            "firstName": "Ante",
+            "lastName": "Pupacic",
+            "contact": "ante.pupacic@astrazeneca.com"
+        },
+        {
+            "firstName": "Marko",
+            "lastName": "Gudic",
+            "contact": "marko.gudic@astrazeneca.com"
+        },
+        {
+            "firstName": "Mate",
+            "lastName": "Baras",
+            "contact": "mate.baras@astrazeneca.com"
+        },
+        {
+            "firstName": "Davor",
+            "lastName": "Midenjak",
+            "contact": "davor.midenjak@astrazeneca.com"
+        },
+        {
+            "firstName": "Sara",
+            "lastName": "Nadi",
+            "contact": "sara.nadi@astrazeneca.com"
+        },
+        {
+            "firstName": "Ewa",
+            "lastName": "Kici\u0144ska",
+            "contact": "ewa.kicinska@astrazeneca.com"
+        },
+        {
+            "firstName": "Inga",
+            "lastName": "Lipska",
+            "contact": "inga.lipska@astrazeneca.com"
+        },
+        {
+            "firstName": "Julia",
+            "lastName": "Gardocka",
+            "contact": "julia.gardocka@astrazeneca.com"
+        },
+        {
+            "firstName": "Julia",
+            "lastName": "Soszy\u0144ska",
+            "contact": "julia.soszynska@astrazeneca.com"
+        },
+        {
+            "firstName": "Karolina",
+            "lastName": "Chojnacka",
+            "contact": "karolina.chojnacka@astrazeneca.com"
+        },
+        {
+            "firstName": "Karolina",
+            "lastName": "Krawczykowska",
+            "contact": "karolina.krawczykowska@astrazeneca.com"
+        },
+        {
+            "firstName": "Marta",
+            "lastName": "Da\u0142ek",
+            "contact": "marta.dalek@astrazeneca.com"
+        },
+        {
+            "firstName": "Weronika",
+            "lastName": "Rzepi\u0144ska",
+            "contact": "weronika.rzepinska@astrazeneca.com"
+        },
+        {
+            "firstName": "Wiktoria",
+            "lastName": "Arciszewska",
+            "contact": "wiktoria.arciszewska@astrazeneca.com"
+        },
+        {
+            "firstName": "Jennifer",
+            "lastName": "Lidstr\u00f6m",
+            "contact": "jennifer.lidstrom@astrazeneca.com"
+        },
+        {
+            "firstName": "Ilija",
+            "lastName": "Novokmet",
+            "contact": "ilija.novokmet@astrazeneca.com"
+        },
+        {
+            "firstName": "Petra",
+            "lastName": "Babic",
+            "contact": "petra.babic@astrazeneca.com"
+        },
+        {
+            "firstName": "Antonija",
+            "lastName": "Plestina",
+            "contact": "antonija.plestina@astrazeneca.com"
+        }
+    ]
+}
