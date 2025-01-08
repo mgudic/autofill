@@ -16,13 +16,15 @@
         }
         select {
             padding: 10px;
-            width: 80%;
+            width: 70%;
         }
-        button {
+        div {
             margin-top: 10px;
-            padding: 10px;
-            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap:4px
         }
+        
     </style>
 </head>
 <body>
@@ -32,8 +34,10 @@
             Loading...
         </span>
     </h1>
-        
-    <select id="userSelector"></select>
-    <script src="popup.js"></script>
+    <div >
+        <select id="userSelector"></select>
+        <script src="popup.js"></script>
+    </div>    
+
 </body>
 </html>

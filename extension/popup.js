@@ -5,32 +5,17 @@ function updateVersion() {
     document.getElementById('manifestVersion').textContent = version;
 }
 
-// Function to load users from the CSV file
-async function loadUsers() {
-    const response = await fetch(chrome.runtime.getURL('users.csv'));
-    const csvData = await response.text();
-    return parseCSV(csvData);
-}
 
-async function loadJsonUsers() {
+async function loadUsers() {
     const response = await fetch(chrome.runtime.getURL('./users.json'));
     const jsonData = await response.json();
     return jsonData.users;
   }
 
-// Function to parse CSV data
-function parseCSV(csv) {
-    const rows = csv.split('\n').slice(1); // Skip the header row
-    return rows.map(row => {
-        const [firstName, lastName, contact] = row.split(',').map(cell => cell.trim());
-        return { firstName, lastName, contact };
-    }).filter(user => user.firstName && user.contact); // Filter out empty rows
-}
 
 // Populate the dropdown menu with users from the CSV file
 async function populateUserSelector() {
-    // const users = await loadUsers();
-    const users = await loadJsonUsers();
+    const users = await loadUsers();
     const userSelector = document.getElementById("userSelector");
 
     // Add a default empty option
@@ -64,7 +49,6 @@ async function populateUserSelector() {
         }
     });
 }
-
 
 
 // Function to autofill fields on the page using event-driven approach
